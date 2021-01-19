@@ -1,0 +1,83 @@
+{
+    "shopId" : 1,
+    "offers" : [
+        {
+            "idOffer" : 1,
+            "name": "Cours aquagym",
+            "price" : 3.90,
+            "picture" : "https://zupimages.net/up/21/02/to4y.jpg", 
+            "description" : "L'aquagym est la performance d'un exercice aérobie dans l'eau comme dans une piscine. Fait principalement verticalement et sans nager généralement dans des eaux profondes ou plus profondes, c'est un type d'entraînement en résistance.",
+            "program" : [
+                {
+                    "idProgram" : 1,
+                    "startHourDate" : "2021-03-10 18:00:00",
+                    "endDate" : "2021-03-10 19:00:00",
+                    "stock" : 10
+                },
+                {
+                    "idProgram" : 2,
+                    "startHourDate" : "2021-03-11 18:00:00",
+                    "endDate" : "2021-03-11 19:00:00",
+                    "stock" : 10
+                },
+                {
+                    "idProgram" : 3,
+                    "startHourDate" : "2021-03-12 18:00:00",
+                    "endDate" : "2021-03-102 19:00:00",
+                    "stock" : 10
+                },
+                {
+                    "idProgram" : 4,
+                    "startHourDate" : "2021-03-13 18:00:00",
+                    "endDate" : "2021-03-103 19:00:00",
+                    "stock" : 10
+                },
+                {
+                    "idProgram" : 5,
+                    "startHourDate" : "2021-03-14 18:00:00",
+                    "endDate" : "2021-03-14 19:00:00",
+                    "stock" : 10
+                }
+            ]
+        },
+        {
+            "idOffer" : 1,
+            "name": "Cours de natation",
+            "price" : 2.5,
+            "picture" : "https://zupimages.net/up/21/02/izcz.jpg", 
+            "description" : "La natation sportive consiste à parcourir dans une piscine, le plus rapidement possible et dans un style codifié par la Fédération internationale de natation (FINA), une distance donnée, sans l'aide d'aucun accessoire.",
+            "program" : [
+                {
+                    "idProgram" : 6,
+                    "startHourDate" : "2021-03-10 19:00:00",
+                    "endDate" : "2021-03-10 20:00:00",
+                    "stock" : 10
+                },
+                {
+                    "idProgram" : 7,
+                    "startHourDate" : "2021-03-11 19:00:00",
+                    "endDate" : "2021-03-11 20:00:00",
+                    "stock" : 10
+                },
+                {
+                    "idProgram" : 8,
+                    "startHourDate" : "2021-03-12 19:00:00",
+                    "endDate" : "2021-03-102 20:00:00",
+                    "stock" : 10
+                },
+                {
+                    "idProgram" : 9,
+                    "startHourDate" : "2021-03-13 19:00:00",
+                    "endDate" : "2021-03-103 20:00:00",
+                    "stock" : 10
+                },
+                {
+                    "idProgram" : 10,
+                    "startHourDate" : "2021-03-14 19:00:00",
+                    "endDate" : "2021-03-14 20:00:00",
+                    "stock" : 10
+                }
+            ]
+        }
+    ]
+}
