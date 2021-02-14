@@ -1,8 +1,10 @@
 import { NestFactory } from '@nestjs/core';
 import { OfferModule } from './offer.module';
+const cors = require('cors');
 
 async function bootstrap() {
   const app = await NestFactory.create(OfferModule);
-  await app.listen(3001);
+  app.use(cors());
+  await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
